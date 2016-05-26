@@ -28,3 +28,9 @@ function cssHelper() {
 }
 
 hexo.extend.helper.register('css', cssHelper);
+hexo.extend.filter.register('server_middleware', function(app) {
+  app.use(function(res, req, next) {
+    loaded = {};
+    next();
+  });
+});
