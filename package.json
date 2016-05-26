@@ -1,0 +1,14 @@
+{
+  "name": "hexo-helper-css-once",
+  "version": "1.0.0",
+  "description": "CSS helper what load css file only once in same page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hexo"
+  ],
+  "author": "hami",
+  "license": "MIT"
+}
